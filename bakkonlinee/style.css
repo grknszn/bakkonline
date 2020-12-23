@@ -1,0 +1,403 @@
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform 0.5s ease;
+}
+
+.prod {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #ffff;
+}
+
+
+
+.body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.category {
+    width: 10%;
+    font-weight: bold;
+    background-color: #ffff;
+    border: 0px solid #D9D9D9;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 10px;
+
+}
+
+
+.header-xtra {
+    float: right;
+    padding: 0px 15px;
+    position: relative;
+    top: -10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+
+    border-radius: 80px;
+
+
+}
+
+ .qty-plus2{
+        width: 20px;
+    }
+    
+     .qty-minus2{
+          width: 20px;
+    }
+
+
+.pricetag {
+    color: #e60000;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    font-family: rubik, sans-serif;
+    margin-top:-10px;
+}
+
+
+
+.nametag {
+    font-size: 1.2rem;
+    font-family: rubik, sans-serif;
+    color: #484848;
+    font-weight: 600;
+}
+
+.quanttag {
+   
+    font-family: rubik, sans-serif;
+    color: #484848;
+    font-weight: 800;
+    margin-top:-5px;
+}
+
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.font20 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+.sbag{
+    margin-top:-15px;
+}
+
+
+.adres {
+    width: 30%;
+}
+
+.cart {
+    font-size: 14px;
+    width: 40%;
+}
+
+.modalprod {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px !important;
+}
+
+.footerbox {
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+.navbarbox {
+    border-radius: 10px;
+
+}
+
+.admincat {
+    width: 50%;
+}
+
+.catimg {
+    width: 75px;
+}
+
+.sablon {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    margin-left: 100px;
+
+
+}
+
+.ust {
+    width: 200px;
+    height: 200px;
+    background-color: #ff3;
+
+}
+
+.alt {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+
+}
+
+.pic {
+    position: relative;
+    width: 100%;
+}
+
+.page-footer {
+
+    font-size: 30px;
+}
+
+.page-nav {
+
+    font-size: 1rem;
+    width: 100%;
+}
+
+.navpic {
+    width: 40px;
+}
+
+.navpicside {
+    width: 50px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    /*Genişliği javascriptle değiştir*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    /*Yatay kaydırmayı devre dışı bırak */
+    transition: 0.8s;
+    /* Sidenav'da kaymaya 0,5 saniye geçiş efekti */
+    padding-top: 60px;
+    /*İçeriği üstten 60 piksel yerleştirin */
+    font-weight: 400;
+   
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #D0D3D4;
+    display: block;
+    transition: 0.3s;
+    float: left;
+}
+
+/*Menüler üzerine gelince  renklerini değiştirin */
+
+.sidenav a:hover {
+    color: #FDFEFE;
+}
+
+/*Kapat düğmesini konumlandırın ve stillendirin (sağ üst köşe) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Yüksekliğin 450 pikselden az olduğu daha küçük ekranlarda, 
+sidenav stilini değiştirin 
+(daha az dolgu ve daha küçük bir yazı tipi boyutu) */
+
+
+.greeting {
+    height: 30px;
+}
+
+
+.tablefont{
+    font-size:12px;
+}
+
+.trashpic{
+    color: #ABB2B9;
+}
+
+.trashpic:hover{
+    color:#2C3E50;
+     transition: 0.8s;
+}
+
+.paymentcss{
+    font-size:14px;
+    font-weight: 600;
+}
+
+.paymentcss2{
+    font-size:14px;
+    font-weight: 600;
+}
+
+.paymentcss3{
+    font-size:14px;
+    font-weight: 600;
+}
+
+.divH{
+    height: 70px;
+}
+
+.singlepr{
+    width: 70%;
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width:936px) {
+
+    .prod {
+        width: 45%;
+
+    }
+
+    .category {
+       
+        width: 35%;
+        
+    }
+
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .navpic {
+        width: 35px;
+        margin-bottom: 20px;
+    }
+
+    .navpicside {
+        width: 50px;
+    }
+
+
+    .adres {
+        width: 100%;
+    }
+
+    .cart {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .modalprod {
+        width: 30%;
+        font-size: 9px !important;
+
+    }
+
+    .admincat {
+        width: 100%;
+    }
+
+    .catimg {
+        width: 100%;
+    }
+
+    .pricetag {
+        color: #e60000;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        font-weight: 700;
+
+    }
+
+    .nametag {
+        font-size: 0.8rem;
+        color: #484848;
+        font-weight: 600;
+    }
+
+    .quanttag {
+        font-size:14px;
+        color: #484848;
+        font-weight: 600;
+     
+      margin-top: -5px;
+        margin-left: 5px;
+    }
+
+    .pic {
+        position: relative;
+        width: 100%;
+    }
+    
+    .qty-plus2{
+        width: 13px;
+    }
+    
+     .qty-minus2{
+          width: 10px;
+        
+    }
+ 
+    .tablefont{
+    font-size:8px;
+}
+    
+    .paymentcss2{
+  
+        margin-bottom: 20px;
+}
+
+.paymentcss3{
+    font-size:10px;
+   font-weight: 600;
+}
+    
+    .divH{
+    height: 50px;
+}
